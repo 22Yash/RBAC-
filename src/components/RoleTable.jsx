@@ -56,7 +56,7 @@ const RoleTable = ({ roles, onEdit, onDelete }) => {
   };
 
   return (
-    <div className="w-[420px] xl:w-full p-6  ml-[-20px] xl:ml-[0px] rounded-lg bg-[#263180]">
+    <div className="xl:w-full w-[340px] sm:w-[460px]  sm:ml-[-70px] xl:ml-[-20px] p-2 xl:p-6 rounded-lg bg-[#263180] ">
       <h2 className="text-white font-bold text-lg mb-4">Roles Table</h2>
       <table
         className="w-full text-left border-collapse table-fixed"

@@ -37,17 +37,17 @@ const Permissions = () => {
   };
 
   return (
-    <div className="p-6 min-h-screen">
-      <div className="flex justify-between items-center mb-6">
+    <div className=" min-h-screen">
+      <div className="flex mt-[20px] flex-col xl:flex-row xl:mt-[0px] justify-between items-center mb-6">
         <h2 className="sm:text-3xl font-bold text-white">Manage Permissions</h2>
         <button
           onClick={() => {
             setSelectedPermission(null);
             setIsModalOpen(true);
           }}
-          className="bg-blue-600 text-white px-2 sm:px-6 py-2 rounded-md hover:bg-blue-700 shadow-lg"
+          className="bg-blue-600 text-white px-2 mt-[10px] sm:px-6 py-2 rounded-md hover:bg-blue-700 shadow-lg"
         >
-          Add Permission
+          + Add Permission
         </button>
       </div>
       <PermissionTable

@@ -54,7 +54,7 @@ const Users = () => {
 
   return (
     <div className="sm:p-6 min-h-screen">
-      <div className="flex xl:justify-between xl:items-center xl:flex-row flex-col mb-6">
+      <div className="flex sm:justify-between sm:items-center sm:flex-row sm:gap-[20px] flex-col mb-6">
         <h2 className="text-3xl font-bold text-white">Users</h2>
         <button
           onClick={() => {

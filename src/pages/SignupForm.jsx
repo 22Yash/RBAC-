@@ -96,7 +96,7 @@ const SignupForm = () => {
             
 
             <button type="submit" className="p-2 rounded-[10px] h-[50px] hover:bg-[#0077B6] bg-blue-500 text-white w-full">
-              Sign Up
+             Log In
             </button>
           </form>
         </div>
